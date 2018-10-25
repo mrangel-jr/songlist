@@ -4,10 +4,10 @@ const Schema = mongoose.Schema;
 const SongSchema = new Schema(
   {
     title: { type: String },
-    user: {
-      type: Schema.Types.ObjectId,
-      ref: 'user'
-    },
+    // user: {
+    //   type: Schema.Types.ObjectId,
+    //   ref: 'user'
+    // },
     lyrics: [{
       type: Schema.Types.ObjectId,
       ref: 'lyric'
