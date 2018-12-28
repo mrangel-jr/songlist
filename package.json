@@ -1,14 +1,14 @@
 {
-  "name": "lyrical",
+  "name": "WTM!",
   "version": "1.0.0",
-  "description": "Starter point for a graphQL course",
+  "description": "Create music lyrics using GraphQL",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/StephenGrider/Lyrical-GraphQL"
+    "url": "https://github.com/mrangel-jr/songlist.git"
   },
   "scripts": {
-    "dev": "nodemon index.js --ignore client"
+    "start": "nodemon index.js --ignore client"
   },
   "author": "",
   "license": "ISC",
@@ -23,6 +23,7 @@
     "body-parser": "^1.16.0",
     "connect-mongo": "^1.3.2",
     "css-loader": "^0.26.1",
+    "event-stream": "^4.0.1",
     "express": "^4.14.0",
     "express-graphql": "^0.6.1",
     "express-session": "^1.15.0",
