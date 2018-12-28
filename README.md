@@ -21,4 +21,7 @@ To finish, run:
 npm start
 ```
 
+The project is running at http://localhost:4000
+
+
 That's all !!
